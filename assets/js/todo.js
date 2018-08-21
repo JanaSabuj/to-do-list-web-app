@@ -24,4 +24,8 @@ $("input").keypress(function(event){
 });
 
 
+$(".fa-plus-circle").click(function() {
 
+$("input").fadeToggle();
+
+});
