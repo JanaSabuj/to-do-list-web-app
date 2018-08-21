@@ -13,5 +13,15 @@
 event.stopPropagation();
  });
 
+$("input").keypress(function(event){
+	if(event.which == 13) {
+		var txt= $(this).val();
+		$(this).val("");
+		 $("ul").append("<li><span><i class='far fa-trash-alt'></i></span> "+ txt + "</li>");
+	}
+ 
+
+});
+
 
 
