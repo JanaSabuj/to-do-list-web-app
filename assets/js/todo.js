@@ -1,4 +1,4 @@
- alert("hello");
+ alert("Welcome to My To-Do List webapp.Create new to-dos, delete or strikethrough.Enjoy!!!");
 
  $("ul").on("click","li",function() {
 	$(this).toggleClass("completed");
