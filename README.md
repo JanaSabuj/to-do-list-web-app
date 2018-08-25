@@ -1,5 +1,5 @@
 # to-do-list-web-app
-A minimal UI to-do list web app
+A minimal UI to-do list web app written in JQuery
 
 This app is written using HTML,CSS, **JQUERY**
 
